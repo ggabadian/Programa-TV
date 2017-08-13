@@ -7,4 +7,10 @@ describe "ejemplos" {
 		fantino.hacerOpinarDeDeportesA(horacioPagani)
 		assert.equals(20.25, horacioPagani.nivelDeEnojo())
 	}
+	
+	test "Toti Pasman opina de chimentos: su soberbia es 0 y no tiene sed"{
+		polino.hacerOpinarDeChimentosA(totiPasman)
+		assert.equals(0,totiPasman.soberbia())
+		assert.notThat(totiPasman.tieneSed())
+	}
 }
