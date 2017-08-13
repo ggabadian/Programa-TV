@@ -1,8 +1,10 @@
-import conductores.polino
+import conductores.*
+import panelistas.*
 
-describe "ejemplo" {
+describe "ejemplos" {
 
-	test "Polino es polino" {
-		assert.equals(polino, polino)
+	test "Pagani opina de deportes y su enojo es 20.25" {
+		fantino.hacerOpinarDeDeportesA(horacioPagani)
+		assert.equals(20.25, horacioPagani.nivelDeEnojo())
 	}
 }
