@@ -13,4 +13,9 @@ describe "ejemplos" {
 		assert.equals(0,totiPasman.soberbia())
 		assert.notThat(totiPasman.tieneSed())
 	}
+	
+	test "Lizzy opina de deportes y su humor es 40" {
+		fantino.hacerOpinarDeDeportesA(lizzyTagliani)
+		assert.equals(40,lizzyTagliani.humor())
+	}
 }
